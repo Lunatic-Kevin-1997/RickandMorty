@@ -1,0 +1,25 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 15px 15px;
+}
+
+.NavDiv button{
+    background-color: transparent;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.NavDiv button:hover{
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}

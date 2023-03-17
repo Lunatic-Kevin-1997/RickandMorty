@@ -1,0 +1,23 @@
+.divSearchBar{
+   display: flex;
+   align-items: center;
+   justify-content:flex-end;
+   flex-direction: row;
+}
+.divSearchBar input{
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Zapf-Chancery', cursive;
+}
+.divSearchBar button{
+    padding: 5px;
+    margin: 15px;
+    background-color:white;
+    color: black;
+    font-family: 'Zapf-Chancery', cursive;
+}
+.divSearchBar button:hover{
+    border-radius: 5px;
+    transition: border-radius 1s ease;
+}
+

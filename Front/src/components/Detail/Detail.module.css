@@ -1,0 +1,60 @@
+.divDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 25px;
+    font-family: 'Zapf-Chancery', cursive;
+    color: white;
+}
+
+.divDetail button{
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.divDetail button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.LinkDetail{
+    text-decoration: none;
+    color: white;
+}
+
+.LinkDetail:hover{
+    color: black;
+}
+
+.divDatos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.divDatosGenerales{
+    text-align: left;
+}
+
+.divDetail img{
+    margin-left: 20px;
+    border-radius: 100%;
+}
+

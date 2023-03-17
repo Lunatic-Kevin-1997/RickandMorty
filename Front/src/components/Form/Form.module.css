@@ -1,0 +1,60 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    background-color:rgba(163, 203, 212, 0.493);;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.div label{
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+.div input[type="text"],
+input[type="password"]{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#000;
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.div p{
+    color: red;
+    padding: 1px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.div button{
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.div button:hover {
+    background-color: red;
+    transition: 1s;
+}

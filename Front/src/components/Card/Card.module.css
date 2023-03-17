@@ -1,0 +1,85 @@
+.divCard{
+    margin: 20px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+    width: 17em;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonX{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonX:hover{
+    font-size: 18px;
+    top: 8px;
+    right: 13px;
+}
+
+.botonFavorite{
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonFavorite:hover{
+    font-size: 16px;
+    top: 8px;
+    left: 13px;
+}
+
+.species{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20fr 20fr;
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Zapf-Chancery', cursive;
+}
+
+.nombrePersonaje{
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 220px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    transition: 0.4s ease;
+    font-family: 'Zapf-Chancery', cursive;
+}
+.nombrePersonaje:hover{
+    color: aquamarine;
+}
+.gender{
+    columns: 1/1;
+    padding-left: .5em;
+    color: white;
+}
+.divCard img{
+    width: 15em;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.linkName{
+    text-decoration: none;
+}
