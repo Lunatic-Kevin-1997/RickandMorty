@@ -18,15 +18,15 @@ function App () {
   const password = "kevin123";
 
   const login = (userData) =>{
-    // if(userData.username === username && userData.password === password){
-    //   setAccess(true)
-    //   navigate("/home");
-    // }
+    if(userData.username === username && userData.password === password){
+      setAccess(true)
+      navigate("/home");
+    }
   } 
 
-  // useEffect(() => {
-  //   !access && navigate("/");
-  // },[access])
+  useEffect(() => {
+    !access && navigate("/");
+  },[access])
   const onSearch = (character) => {
     fetch(`http://localhost:3001/rickandmorty/onsearch/${character}`)
     .then((response) => response.json())
